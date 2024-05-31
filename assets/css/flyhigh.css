@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	font-family:"Oi", serif;
+	font-size: max(36px, 5vw);
+	justify-self:flex-start;
+	min-height: 45px;
+	align-self:center;
+}
+.home{
+	color: whitesmoke;
+	text-decoration: none;
+	transition-duration: 1s;
+	font-family:"Kumar one";
+	vertical-align:bottom;
+	flex-grow: 1;
+	font-size: min(max(4px, 1.3vw), 15px);
+	margin-bottom: 0.5vw;
+}
+.home:hover{
+	text-decoration: underline;
+	color: skyblue;
+}
+.logo{
+	display: flex;
+	background-color: #D55660;
+	color: whitesmoke;
+	flex-grow:2;
+	justify-self: flex-start;
+	align-content:center;
+}
+header{
+	display: flex;
+	justify-content: flex-start;
+	background-color:#D55660 ;
+}
+.nav{
+	display:flex;
+	justify-content:flex-end;
+	flex-grow: 1;
+	align-items: flex-end;
+	background-color: #D55660;
+}
+.widget{
+	flex-grow: 1;
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+	background-color: #D55660;
+	align-items: center;
+}
+.searchbar{
+	align-self:auto;
+	align-content:flex-end;
+	justify-self: stretch;
+	opacity: 100;
+	background-color: #D55660;
+	margin: 0.5vw;
+}
+.container{
+	display:flex;
+	justify-content: stretch;
+}
+.popular{
+	flex-grow:1;
+	background-color:white;
+    margin:15px;
+    display: flex;
+    flex-direction: column;
+    width: 7vw;
+}
+.base{
+	flex-grow:6;
+	margin:15px;
+	margin-left: 0px;
+	height:200vh;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+.accinf{
+	display:flex;
+	justify-content: flex-start;
+	align-content:end;
+}
+.name12{
+	display:flex;
+	flex-direction: column;
+	justify-content:end;
+	flex-grow:25;
+	gap: 2.5vw;
+}
+.acc{
+	flex-grow:0;
+}
+.underline{
+	background-color:#D9D9D9;
+	height:10px;
+}
+.data{
+	position:relative;
+	bottom:0.5vw;
+	font-family:"Kumar one";
+	font-size:1.5vw;
+	width:100%;
+}
+.search{
+	font-size: min(max(4px, 1.3vw), 15px);
+	color: white;
+}
+.button{
+	min-height: 36px;
+}
+input{
+	background:none;
+	color: black;
+	border: none;
+	outline: none;
+	border-bottom: 1vw solid #c6c6c6;
+	background-image: url("../media/edit.png");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	padding-left: 1.5em;
+	background-size: 1.4em;
+}
+form.search{
+	height: 1.6em;
+	margin-bottom: 1vw;
+}
+input.search{
+	background: none;
+	border-bottom: 3px solid #fff;
+	font-family:"Kumar one";
+
+	&::placeholder{
+		color: white;
+	}
+	padding-left: none;
+}
+body{
+	background-color:#D9D9D9;
+}
+.base2{
+	flex-grow:6;
+	margin:15px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+.description{
+	height:200vh;
+}
+.login{
+	font-family: Kumar one;
+	font-size: 2.5vw;
+	align-self: center;
+	margin-top: 1.5vw;
+}
+.logbutt{
+	border-radius:2vw;
+	background-color:#D55660;
+	height:3vw;
+	margin:1vw;
+	font-family: Kumar one;
+	align-self: center;
+	width:12vw;
+	display: flex;
+	justify-content: center;
+	color: white;
+	text-decoration: none;
+	transition-duration: 1s;
+	align-items:center;
+	font-size: 1.5vw;
+}
+.logbutt:hover{
+	background-color:#763035;
+}
+.poptem{
+	color:#d4434b;
+	font-family: Kumar one;
+	font-size: 1.5vw;
+	align-self: center;
+	margin-top: 15px;
+}
+.poppost{
+	background-color: #d9d9d9;
+	width: 17.5vw;
+	height:15vw;
+	align-self: center;
+	margin-top: 1vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.popins{
+	background-color: white;
+	width: 16.5vw;
+	height: 14vw;
+	align-self: center;
+}
